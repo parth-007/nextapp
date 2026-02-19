@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #ff0000;
   --foreground: #171717;
 }
 
@@ -20,7 +20,15 @@
 }
 
 body {
-  background: var(--background);
+  background: rgb(89, 161, 208);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+  color: red;
+}
+
+.common_header {
+  color: blue;
 }
