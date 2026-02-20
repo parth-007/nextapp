@@ -13,7 +13,7 @@ export const metadata = {
     authors: [{name: "Parth", url: "https://www.parth.com"}, {name: "John", url: "https://www.john.com"}],
 }
 
-const Service = () => {
+const Service = async () => {
     
     return <><h1 className={styles.common_header}>Service</h1>
 
