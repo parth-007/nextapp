@@ -1,5 +1,4 @@
 import Link from "next/link";
-
 const Navigation = () => {
     return (
         <header className="grid grid-cols-3">
